@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/reducido.css">
+  
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+ 
+</head>
+  <body class="bg-primary">
+    <main class="container d-flex align-items-center h-100 my-5">
+      <div class="card overflow-hidden text-md-start text-center bg-secondary">
+        <div class="d-md-flex flex-lg-row  m-4 align-items-center justify-content-center"> 
+        
+          <aside class="order-md-last d-flex flex-column bg-danger flex-{grow|shrink}-1 w-100 h-100">
+            <picture>
+              <source srcset="./images/image-header-desktop.jpg" 
+              media="(min-width:768px)">
+              <source srcset="./images/image-header-mobile.jpg"
+              media="(max-width:767px)">
+              <img  class="img-fluid w-100 bg-secondary" src="./images/image-header-desktop.jpg" alt="Header">
+            </picture>
+          
+          </aside>
+
+          <section class="order-md-first flex-{grow|shrink}-1 w-100 h-100 bg-transparent">
+            <header class="fs-6 fw-bolder mb-5  ms-md-5 me-md-5 pe-md-5 ps-md-5">
+              <h1 class="pe-md-2 fw-bolder text-white">Get <b class="fw-bolder text-danger">insights</b> that help your business grow.</h1>
+            </header>
+
+              <p class="ms-md-5 me-md-5 pe-md-5 ps-md-5 mb-md-4 pb-md-3  text-success">
+                Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+            experience, and overall efficiency.
+              </p>
+
+              <div class="d-md-flex gap-5 pe-md-5 ms-md-5 me-md-5 pe-md-5 ps-md-5">
+                <div>
+                  <h2 class="fs-1 text fw-bolder text-white">10k+</h2> 
+                  <h6 class="fs-6 text text-success"">COMPANIES</h6>
+                </div>
+                <div>
+                <h2 class="fs-1 text fw-bolder text-white">314</h2> 
+                <h6 class="fs-6 text text-success"">TEMPLATES</h6>
+                </div>
+                <div>
+                <h2 class="fs-1 text fw-bolder text-white">12m+</h2> 
+                <h6 class="fs-6 text text-success"">QUERIES</h6>
+                </div>
+                
+              </div>
+            </section>
+        </div> 
+        <footer class="attribution text-center text-white">
+          Challenge by <a class="text-success" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a class="text-success" href="www.linkedin.com/in/marceloeortegar">Marcelo Ortega</a>.
+            </footer>
+        
+      </div> 
+       
+    </main>
+  </body>
+</html>
+
+<!--
+$primary: hsl(233, 46%, 7%);
+$secondary: hsl(246, 38%, 16%);
+$danger:  hsl(275, 63%, 61%);
+$success:  hsl(245, 15%, 68%);
+
+
+.img-fluid {
+    mix-blend-mode: multiply;
+
+}
+
+@media (min-width: 720px) { 
+    body {
+    height: 100vh;
+    } 
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+-->
